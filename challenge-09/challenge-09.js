@@ -61,7 +61,13 @@
     por parâmetro, INVOCADA, e passando a ela por parâmetro os dois valores
     que foram passadas para a primeira função `calculator`.
     */
-    // ?
+    function calculator( x, y ) {
+        var callback = otherFunc;
+        function otherFunc(callback) {
+            return 
+        }
+    }
+
 
     /*
     Declare uma variável chamada `sum`, e atribua a ela a função `calculator`,
